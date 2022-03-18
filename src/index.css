@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #020c1b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Credits{
+  font-family: "SFMono";
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #64ffda;
+}
+@font-face {
+  font-family: "SFMono";
+  src: local("SFMono"),
+   url("./fonts/SFMono/SFMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  }
+  @font-face {
+    font-family: "Calibre";
+    src: local("Calibre"),
+     url("./fonts/Calibre/Calibre-Regular.ttf") format("truetype");
+    font-weight: normal;
+    }

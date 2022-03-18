@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+  width: 600px;
+  margin: 50px auto;
+  padding: 60px 0px;
+  background-color: #112240c5;
+  border-radius: 10px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: rgba(6, 6, 7, 0.808) 0px 7px 29px 0px;
+  position: relative;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+form{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+form input{
+  width: 305px;
+  height: 40px;
+  margin: auto;
+  margin-right: 70px;
+  border-color: black;
+  border-width: 2px;
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+form input:focus  {
+    border-bottom: 3px solid dodgerblue;
+}
+form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(77, 77, 77);
+  opacity: 1; /* Firefox */
+  font-family: "Calibre";
+  font-weight: bold;
+}
+form button{
+  width: 100px;
+  height: 44px;
+  margin: auto;
+  color: white;
+  background-color: dodgerblue;
+  border-width: 0px;
+  box-shadow: rgb(27, 119, 199) 3px 3px 6px 0px inset, rgba(27, 144, 223, 0.5) -3px -3px 6px 1px inset;
+  font-family: "SFMono";
+}
+form button:hover{
+  background-color: rgb(13, 32, 51);
+  box-shadow: none;
+  transition: 0.1s ease-in-out;
+}
+
+.List{
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 70px;
+  margin: auto;
+  background-color: #000000d0;
+  margin: 20px auto;
+  font-size: inherit;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(0, 0, 0, 0.685);
+  -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+    font-family: "SFMono";
+}
+.App > .List{
+  margin-top: 35px;
+}
+.App > .List ~ .List{
+  margin-top: auto;
+}
+
+.checkbox{
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+img{
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.Text{
+  margin: auto;
+  margin-left: 15px;
+  font-size: 20px;
+  width: 350px;
+  text-align: left;
+  overflow: hidden;
+  color: white;
+}
+
+.Delete{
+  right: 0px;
+  position: relative;
+}
+ .Delete button{
+   background-color: rgb(255, 70, 46);
+   color: white;
+   border: 0px;
+   height: 70px;
+   width: 70px;
+   font-family: "SFMono";
+ }
+
+.Strike{
+  text-decoration: line-through;
+}
+.Bcolor{
+  background-color: rgba(10, 255, 121, 0.685);
+}
+
+
+@media (max-width:615px) { 
+  .App {
+    width: 95%;
+  }
+  form input{
+    width: 50%;
+    margin-right: 7%;
+  }
+  form button{
+    width: 20%;
+  }
+  
+  .List{
+    width: 90%;
+  }
+  img{
+    width: 50%;
+  }
+  
+  .Text{
+    font-size: 90%;
+    width: 70%;
+  }
+  
+  
+   
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
