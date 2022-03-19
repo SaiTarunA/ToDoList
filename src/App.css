@@ -41,6 +41,7 @@ form{
   margin-bottom: 15px;
   margin-top: 15px;
 }
+select, select:focus,   textarea,   input[type="text"],   input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 16.1px; }
 form input{
   width: 305px;
   height: 40px;
